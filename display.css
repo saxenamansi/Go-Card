@@ -1,0 +1,42 @@
+#infoTable {
+    font-family: "Times New Roman", Times, serif;
+    border-collapse: collapse;
+    width: 10%;
+  }
+  #infoTable th{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+  }
+  #infoTable td{
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #infoTable tr:nth-child(even){background-color: #f0f0f0;}
+  
+  #infoTable tr:hover {background-color: #ddd;}
+  
+  #infoTable th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #123456;
+    color: white;
+  }
+  
+  button[type=button] {
+    width: 20%;
+    background-color: #123456;
+    color: white;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  button[type=button]:hover {
+   background-color: lightblue;
+  }

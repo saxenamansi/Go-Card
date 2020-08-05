@@ -1,0 +1,116 @@
+.CCForm{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.CCForm fieldset{
+	border: none;
+}
+.CCForm legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.CCForm label {
+	display: block;
+	margin-bottom: 8px;
+}
+.CCForm input[type="text"],
+.CCForm input[type="date"],
+.CCForm input[type="datetime"],
+.CCForm input[type="email"],
+.CCForm input[type="number"],
+.CCForm input[type="search"],
+.CCForm input[type="time"],
+.CCForm input[type="url"],
+.CCForm textarea,
+.CCForm select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.CCForm input[type="text"]:focus,
+.CCForm input[type="date"]:focus,
+.CCForm input[type="datetime"]:focus,
+.CCForm input[type="email"]:focus,
+.CCForm input[type="number"]:focus,
+.CCForm input[type="search"]:focus,
+.CCForm input[type="time"]:focus,
+.CCForm input[type="url"]:focus,
+.CCForm textarea:focus,
+.CCForm select:focus{
+	background: #d2d9dd;
+}
+.CCForm select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.CCForm .number {
+	background: #123456;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+/* 
+.CCForm button[type="button"],
+.CCForm button[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.CCForm button[type="button"]:hover,
+.CCForm button[type="button"]:hover
+{
+	background: #109177;
+} */
+
+button[type=button] {
+    width: 20%;
+    background-color: #123456;
+    color: white;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  button[type=button]:hover {
+   background-color: lightblue;
+  }
